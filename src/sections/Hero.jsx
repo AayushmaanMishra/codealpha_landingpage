@@ -5,7 +5,7 @@ import { arrowRight } from "../assets/icons"
 import { gpu } from "../assets/images"
 import { useState } from "react"
 const Hero = () => {
-  const [bigShoeImg, setBigShoeImg] = useState(gpu);
+  const [comp, setcomp] = useState(gpu);
 
   return (
     <section
@@ -42,7 +42,7 @@ const Hero = () => {
 
       <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center'>
         <img
-          src={bigShoeImg}
+          src={comp}
           alt='shoe colletion'
           width={610}
           height={502}
@@ -55,8 +55,8 @@ const Hero = () => {
               <ShoeCard
                 index={index}
                 imgURL={image}
-                changeBigShoeImage={(shoe) => setBigShoeImg(shoe)}
-                bigShoeImg={bigShoeImg}
+                changeBigShoeImage={(shoe) => setcomp(shoe)}
+                comp={comp}
               />
             </div>
           ))}
