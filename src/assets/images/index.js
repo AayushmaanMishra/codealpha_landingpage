@@ -14,12 +14,11 @@ import cpus from './cpus.svg'
 import monitors from './monitors.svg'
 import keyboards from './keyboards.svg'
 import gpus from './gpus.svg'
-import shoe8 from './shoe8.svg'
 
 import thumbnailBackground from './thumbnail-background.svg'
-import thumbnailShoe1 from './thumbnail-shoe1.svg'
-import thumbnailShoe2 from './thumbnail-shoe2.svg'
-import thumbnailShoe3 from './thumbnail-shoe3.svg'
+import thumbnailShoe1 from './thumbnail-gpu.svg'
+import thumbnailShoe2 from './thumbnail-mon.svg'
+import thumbnailShoe3 from './thumbnail-keyb.svg'
 
 export {
     gpu,
@@ -37,7 +36,6 @@ export {
     monitors,
     keyboards,
     gpus,
-    shoe8,
 
     thumbnailBackground,
     thumbnailShoe1,
