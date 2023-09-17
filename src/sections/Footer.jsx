@@ -17,8 +17,7 @@ const Footer = () => {
             />
           </a>
           <p className='mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm'>
-            Get shoes ready for the new term at your nearest Nike store. Find
-            Your perfect Size In Store. Get Rewards
+          Prepare Your Ultimate Gaming Rig for the New Season at Your Nearest PC Component Store. Discover Your Perfect Components In Store. Unlock Exclusive Rewards!
           </p>
           <div className='flex items-center gap-5 mt-8'>
             {socialMedia.map((icon) => (

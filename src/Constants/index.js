@@ -32,23 +32,23 @@ export const statistics = [
 export const products = [
     {
         imgURL: cpus,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
+        name: "Ryzen 7",
+        price: "$400.20",
     },
     {
         imgURL: monitors,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
+        name: "240hz Gaming Monitor",
+        price: "$500.20",
     },
     {
         imgURL: keyboards,
-        name: "Nike Air Jordan-100",
+        name: "Mechanical Keybaord",
         price: "$220.20",
     },
     {
         imgURL: gpus,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
+        name: "Nvedia RTX 3090",
+        price: "$900",
     },
 ];
 
@@ -90,12 +90,12 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Graphic Cards", link: "/" },
+            { name: "Monitors", link: "/" },
+            { name: "Keybaords", link: "/" },
+            { name: "Processors", link: "/" },
+            { name: "Consoles", link: "/" },
+            { name: "RAM", link: "/" },
         ],
     },
     {
@@ -111,8 +111,7 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "https://aayushmaanportfolio.vercel.app/", link: "aayushmaanlko@gmail.com" },
         ],
     },
 ];
