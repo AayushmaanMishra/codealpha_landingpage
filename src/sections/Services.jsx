@@ -1,4 +1,4 @@
-import { services } from "../constants/index";
+import { services } from "../Constants/index";
 import ServiceCard from "../Components/ServiceCard";
 
 const Services = () => {
