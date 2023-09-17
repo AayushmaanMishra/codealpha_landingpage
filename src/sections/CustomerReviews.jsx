@@ -1,5 +1,6 @@
+import React from 'react'
 
-function CustomerReviews() {
+const CustomerReviews = () => {
   return (
     <div>CustomerReviews</div>
   )

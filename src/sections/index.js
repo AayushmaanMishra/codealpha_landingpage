@@ -1,6 +1,6 @@
 import Hero from "./Hero";
 import Footer from "./Footer";
-import CustomerReviews from "./CustomerReviews";
+import CustomerReviews from "./CustomerReviews.jsx";
 import PopularProducts from "./PopularProducts";
 import Services from "./Services";
 import Subscribe from "./Subscribe";

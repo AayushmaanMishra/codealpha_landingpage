@@ -2,10 +2,10 @@ import Button from "../Components/Button"
 import ShoeCard from "../Components/ShoeCard"
 import { shoes, statistics } from "../Constants"
 import { arrowRight } from "../assets/icons"
-import { bigShoe1 } from "../assets/images"
+import { gpu } from "../assets/images"
 import { useState } from "react"
 const Hero = () => {
-  const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
+  const [bigShoeImg, setBigShoeImg] = useState(gpu);
 
   return (
     <section
@@ -13,7 +13,7 @@ const Hero = () => {
       className='w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container'
     >
       <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28'>
-        <p className='text-xl font-montserrat text-coral-red'>
+        <p className='text-xl font-montserrat text-purple-500'>
           Our Summer collections
         </p>
 
@@ -22,7 +22,7 @@ const Hero = () => {
             The New Arrival
           </span>
           <br />
-          <span className='text-coral-red inline-block mt-3'>Nike</span> Shoes
+          <span className='text-purple-500 inline-block mt-3'>Nike</span> Shoes
         </h1>
         <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
           Discover stylish Nike arrivals, quality comfort, and innovation for
